@@ -5,7 +5,9 @@
 }
 :root {
   --text-principal: ;
+  --color-rua: rgb(80, 73, 73);
+  --color-faixa: #f1e7e7;
 }
 body {
-  background: #666;
+  background: #000;
 }

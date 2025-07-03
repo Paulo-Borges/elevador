@@ -1,0 +1,12 @@
+.rua {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: var(--color-rua);
+  gap: 30px;
+}
+.rua > .faixa {
+  flex: 1;
+  height: 10px;
+  background-color: var(--color-faixa);
+}
