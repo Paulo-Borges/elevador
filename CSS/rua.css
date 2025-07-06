@@ -4,6 +4,7 @@
   height: 100px;
   background-color: var(--color-rua);
   gap: 30px;
+  border-top: 10px solid var(--color-faixa);
 }
 .rua > .faixa {
   flex: 1;

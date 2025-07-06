@@ -1,0 +1,19 @@
+.arvore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arvore::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--color-arvore);
+    
+}
+.arvore::after {
+    content: "";
+    width: 20px;
+    height: 100px;
+    background-color: var(--color-tronco);
+}
