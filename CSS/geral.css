@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -10,6 +12,9 @@
   --color-controle: #222;
   --color-arvore: rgb(3, 113, 3);
   --color-tronco: #4d3131;
+  --color-mostrador: #22f522;
+  --border-mostrador: #666;
+  --border-button: #999;
 }
 body {
   background: #000;
