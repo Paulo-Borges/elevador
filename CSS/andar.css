@@ -1,4 +1,24 @@
 .andar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   border-bottom: 2px solid white;
   flex: 1;
+}
+.porta {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  width: 40%;
+  height: 80%;
+  background-color: brown;
+  border: solid 5px #fff6;
+  border-bottom-width: 0;
+}
+.porta::after {
+  content: "";
+  width: 30%;
+  height: 15%;
+  border-radius: 5px;
+  background-color: #fff9;
 }
